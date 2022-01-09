@@ -48,7 +48,7 @@ function Admin(props) {
               />
             );
           })}
-          <Redirect from="/srm" to="/srm/home" />
+          <Redirect from="/srm-inc" to="/srm-inc/home" />
         </Switch>
         <h2 className="align-self-center" id={Styles.title}>
           <span id={Styles.span}>Travel Services</span>

@@ -9,28 +9,28 @@ var dashRoutes = [
     name: "Home",
     icon: "ui-1_bell-53",
     component: Home,
-    layout: "/srm",
+    layout: "/srm-inc",
   },
   {
     path: "/information",
     name: "information",
     icon: "design_app",
     component: Information,
-    layout: "/srm",
+    layout: "/srm-inc",
   },
   {
     path: "/maps",
     name: "Maps",
     icon: "location_map-big",
     component: Maps,
-    layout: "/srm",
+    layout: "/srm-inc",
   },
   {
     path: "/travel-form",
     name: "User Profile",
     icon: "users_single-02",
     component: UserPage,
-    layout: "/srm",
+    layout: "/srm-inc",
   },
 ];
 export default dashRoutes;

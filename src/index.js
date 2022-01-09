@@ -11,8 +11,8 @@ import AdminLayout from "layouts/Admin.js";
 ReactDOM.render(
   <BrowserRouter basename="/">
     <Switch>
-      <Route path="/srm" render={(props) => <AdminLayout {...props} />} />
-      <Redirect to="/srm/home" />
+      <Route path="/srm-inc" render={(props) => <AdminLayout {...props} />} />
+      <Redirect to="/srm-inc/home" />
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")
