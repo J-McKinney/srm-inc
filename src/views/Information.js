@@ -14,10 +14,11 @@ import {
   Input,
 } from "reactstrap";
 import Styles from "./style.module.css";
-import MO from "../assets/img/MVCOriginal.jpg";
-import PP from "../assets/img/passports.jpg";
-import CND from "../assets/img/cnd.jpg";
-import HU from "../assets/img/husky.jpg";
+import VCOM from "../assets/img/VCOM.png";
+import YCC from "../assets/img/YCC.png";
+import JCC from "../assets/img/JCC.png";
+import ACC from "../assets/img/ACC.png";
+import HCCO from "../assets/img/HCCO.png";
 
 function Dashboard() {
   return (
@@ -30,16 +31,20 @@ function Dashboard() {
             <Card id={Styles.bs} className="card-chart">
               <CardHeader>
                 <CardTitle
-                  style={{ color: "dimgray", textAlign: "center" }}
+                  style={{ color: "#A3533E", textAlign: "center" }}
                   tag="h1"
                 >
-                  Marietta Veterinary Clinic
+                  Southern Restoration Maintenance, Inc.
                 </CardTitle>
                 <CardTitle
-                  style={{ color: "lightseagreen", textAlign: "center" }}
+                  style={{
+                    color: "black",
+                    textAlign: "center",
+                    fontWeight: "900",
+                  }}
                   tag="h3"
                 >
-                  DR. JULIAN PECKICH
+                  Featured Projects
                 </CardTitle>
               </CardHeader>
               <CardBody>
@@ -51,58 +56,15 @@ function Dashboard() {
                   }}
                 >
                   <h4>
-                    At Marietta Vet Clinic, we offer comprehensive, high-quality
-                    care at our state-of-the-art facility. We strive to create
-                    the most welcoming, pleasant experience for you and your
-                    furry friend. Dr. Peckich is affiliated with the American
-                    Veterinary Medical Association and has been providing
-                    specialized care for nearly ten years.
-                  </h4>
-                </div>
-                <div
-                  style={{
-                    paddingRight: "30px",
-                    paddingLeft: "30px",
-                    textAlign: "center",
-                  }}
-                >
-                  <h4>
-                    Dr. Julian Peckich DVM is an award winning Marietta
-                    veterinarian. The Marietta Daily Journal has chosen Dr.
-                    Peckich as the "Best Veterinarian" 2021 in Cobb County, and
-                    the veterinary clinic won the "Best Veterinary Group" in
-                    Cobb County. Dr. Peckich is grateful and thanks the
-                    community for choosing him as the best veterinarian.
-                  </h4>
-                </div>
-                <div
-                  style={{
-                    paddingRight: "30px",
-                    paddingLeft: "30px",
-                    textAlign: "center",
-                  }}
-                >
-                  <h4>
-                    Dr. Peckich was raised in Cobb County, graduating from the
-                    local McEachern High School. He went on to earn a Bachelor
-                    of Science Degree in Chemistry at Creighton University in
-                    Omaha, Nebraska. Dr. Peckich attended St. Matthews
-                    University School of Veterinary Medicine, and North Carolina
-                    State University College of Veterinary Medicine for clinical
-                    rotations.
-                  </h4>
-                </div>
-                <div
-                  style={{
-                    paddingRight: "30px",
-                    paddingLeft: "30px",
-                    textAlign: "center",
-                  }}
-                >
-                  <h4>
-                    Dr. Peckich and team are happy to serve the Marietta,
-                    Kennesaw, Powder Springs, Acworth, Dallas, Hiram, and
-                    Vinings, GA cities and of course West Cobb.
+                    As one of the industry leaders in top quality restoration
+                    services in building preservation; it is our mission to
+                    provide our clients with the latest in technology, combined
+                    with research directed at the special needs for each
+                    individual project. As a result, each building owner can be
+                    assured that their project has been restored using the
+                    latest in quality materials and workmanship, that will
+                    endure the test of time and elements, while returning your
+                    building to its original beauty and luster.
                   </h4>
                 </div>
               </CardBody>
@@ -110,56 +72,18 @@ function Dashboard() {
           </Col>
         </Row>
         {/*  */}
-        <Row style={{ marginBottom: "15vh" }}>
+        {/*  */}
+        {/*  */}
+        {/*  */}
+        {/*  */}
+        {/*  */}
+        <Row style={{ marginBottom: "5vh" }}>
           <Col xs={12} md={6}>
             <Card id={Styles.bs} className="card-chart">
               <CardHeader>
-                {/* <CardTitle tag="h4">Updates</CardTitle> */}
-              </CardHeader>
-              <CardBody>
-                <div
-                  style={{ textAlign: "center", height: "50vh" }}
-                  className="chart-area"
-                >
-                  <img
-                    className={Styles.mo}
-                    style={{
-                      width: "90%",
-                      height: "46vh",
-                      objectFit: "cover",
-                      borderRadius: "15px",
-                    }}
-                    src={MO}
-                    alt="girl with dog"
-                  />
-                </div>
-              </CardBody>
-            </Card>
-          </Col>
-          <Col xs={12} md={6}>
-            <Card id={Styles.bs} className="card-chart">
-              <CardBody>
-                <div
-                  style={{ textAlign: "center", height: "48vh" }}
-                  className="chart-area"
-                >
-                  <h3 style={{ margin: "30px" }} id={Styles.h3}>
-                    Effective, the CDC temporarily suspended dog imports from
-                    countries as a high-risk for rabies. Effective, the CDC
-                    updated its requirements to allow certain dogs returning to
-                    the US to be imported from countries as a high-risk for
-                    rabies, if the pet meets specific requirements.
-                  </h3>
-                </div>
-              </CardBody>
-            </Card>
-          </Col>
-        </Row>
-        <Row style={{ marginBottom: "15vh" }}>
-          <Col xs={12} md={6}>
-            <Card id={Styles.bs} className="card-chart">
-              <CardHeader>
-                {/* <CardTitle tag="h4">Pet Travel</CardTitle> */}
+                <CardTitle style={{ textAlign: "center" }} tag="h4">
+                  VCOM
+                </CardTitle>
               </CardHeader>
               <CardBody>
                 <div
@@ -167,11 +91,13 @@ function Dashboard() {
                   className="chart-area"
                 >
                   <h3 style={{ margin: "30px" }} id={Styles.h3}>
-                    Pet travel isn't easy, and everything else you have to do,
-                    obtaining all the right documents with all the endorsements
-                    can seem like quite the endeavor. We commonly receive
-                    questions regarding the APHIS 7001, a Veterinary Health
-                    Certificate that comes into play for pet moves.
+                    The chimney is constructed from solid brick masonry. Masonry
+                    walls are approximately four feet thick at the bottom and
+                    thirty inches thick at the top. The "mushroom" base at the
+                    bottom of the chimney extends four feet above grade and is
+                    twelve feet wide at the bottom of the foundation. The
+                    chimney moves two inches back and forth each day, during the
+                    expansion and contraction from the heat of daylight hours.
                   </h3>
                 </div>
               </CardBody>
@@ -195,7 +121,7 @@ function Dashboard() {
                       objectFit: "cover",
                       borderRadius: "15px",
                     }}
-                    src={PP}
+                    src={VCOM}
                     alt="Passport cheers"
                   />
                 </div>
@@ -203,188 +129,58 @@ function Dashboard() {
             </Card>
           </Col>
         </Row>
+        {/* checklist///////////////////////////////////////////////////////////////////////////////////////////////////// */}
         <Row style={{ marginBottom: "15vh" }}>
           <Col xs={1} md={1} />
           <Col xs={10} md={10}>
             <Card id={Styles.bs} className="card-tasks">
               <CardHeader>
-                <h5 className="card-category">Pet Travel Scheme (or PETS)</h5>
-                <CardTitle tag="h4">Checklist for travel</CardTitle>
+                <CardTitle tag="h4">Scope Of Work</CardTitle>
               </CardHeader>
               <CardBody>
                 <div className="table-full-width table-responsive">
                   <Table>
                     <tbody>
                       <tr>
-                        <td>
-                          <FormGroup check>
-                            <Label check>
-                              <Input
-                                defaultChecked
-                                type="checkbox"
-                                disabled={true}
-                              />
-                              <span className="form-check-sign" />
-                            </Label>
-                          </FormGroup>
-                        </td>
+                        <td></td>
                         <td className="text-left">
                           <p>
-                            <strong>Microchip: </strong>Each Pet shall be
-                            identified by means of a microchip. No other form of
-                            identification is acceptable. The microchip used
-                            should comply with ISO Standard 11784 or Annex A to
-                            ISO standard 11785- otherwise the pet will need to
-                            be sent with it’s own scanner attached to the top of
-                            the crate.
+                            <strong>1) </strong>Cracks in the perimeter concrete
+                            cap on the top of the chimney were filled with
+                            epoxy. The cap was coated using Sitka 144. A vented
+                            aluminum cap was lowered into place using a crane.
+                            This cap covered the entire top of the chimney.
+                            Anchor bolts were embedded into epoxy in the
+                            concrete to secure the cap.
                           </p>
                         </td>
                       </tr>
                       <tr>
-                        <td>
-                          <FormGroup check>
-                            <Label check>
-                              <Input
-                                defaultChecked
-                                type="checkbox"
-                                disabled={true}
-                              />
-                              <span className="form-check-sign" />
-                            </Label>
-                          </FormGroup>
-                        </td>
+                        <td></td>
                         <td className="text-left">
                           <p>
-                            <strong>Rabies Vaccination & Certificate: </strong>
-                            All pets must have an original Rabies Certificate
-                            and this certificate must state the microchip
-                            number, the date of inoculation and the validity of
-                            the particular vaccination you obtain. Some are good
-                            for two years, others are only good for one.
+                            <strong>2) </strong>
+                            The mortar joints in the top sixty feet of the
+                            chimney were cut out 100%and joints were then
+                            solidly repointed to match the existing mortar.
                           </p>
                         </td>
                       </tr>
                       <tr>
-                        <td>
-                          <FormGroup check>
-                            <Label check>
-                              <Input
-                                defaultChecked
-                                type="checkbox"
-                                disabled={true}
-                              />
-                              <span className="form-check-sign" />
-                            </Label>
-                          </FormGroup>
-                        </td>
+                        <td></td>
                         <td className="text-left">
                           <p>
-                            <strong>Rabies Titer / FAVN-OIE Tests: </strong>FAVN
-                            or Fluorescent Antibody Viral Neutralization (FAVN)
-                            Blood Test is to ensure that the rabies vaccinations
-                            have provided adequate rabies antibody levels and
-                            will need to be approved by an approved Government
-                            Facility prior to export (i.e. the USDA).
+                            <strong>3) </strong>Approximately 300 brick masonry
+                            units were replaced in the top of the chimney.
                           </p>
                         </td>
                       </tr>
                       <tr>
-                        <td>
-                          <FormGroup check>
-                            <Label check>
-                              <Input
-                                defaultChecked
-                                type="checkbox"
-                                disabled={true}
-                              />
-                              <span className="form-check-sign" />
-                            </Label>
-                          </FormGroup>
-                        </td>
+                        <td></td>
                         <td className="text-left">
                           <p>
-                            <strong>Letter From Your Vet: </strong>Please have a
-                            typed letter, on the Vet’s Company Letterhead, which
-                            states the date the microchip was implanted. Please
-                            include the microchip number and the Pet(s)
-                            information (name, breed, sex & age) * Please note –
-                            if the Rabies Vaccination and the blood draw date
-                            were done on the same day, please state that the
-                            vaccination was given BEFORE the blood was drawn. We
-                            will need this letter signed by your Vet – in BLUE
-                            ink.
-                          </p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <FormGroup check>
-                            <Label check>
-                              <Input
-                                defaultChecked
-                                type="checkbox"
-                                disabled={true}
-                              />
-                              <span className="form-check-sign" />
-                            </Label>
-                          </FormGroup>
-                        </td>
-                        <td className="text-left">
-                          <p>
-                            <strong>EU Vet Health Certificate: </strong>(Form
-                            EC#: 998) – This is the standard Health Certificate
-                            to be filled out by Marietta Veterinary Clinic. This
-                            certificate is valid for 4 months prior to departure
-                            date, so do not get this issued too early.
-                          </p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <FormGroup check>
-                            <Label check>
-                              <Input
-                                defaultChecked
-                                type="checkbox"
-                                disabled={true}
-                              />
-                              <span className="form-check-sign" />
-                            </Label>
-                          </FormGroup>
-                        </td>
-                        <td className="text-left">
-                          <p>
-                            <strong>
-                              USDA Endorsement With Referenced Forms:{" "}
-                            </strong>
-                            Microchip Implantation Record. Rabies Certificate.
-                            Rabies Titer Test Results. Vet Letter. EU Vet Health
-                            Certificate. Must be sent to your local USDA for
-                            their stamp of approval. Please contact Marietta
-                            Veterinary Clinic on the best way of handling this.
-                          </p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <FormGroup check>
-                            <Label check>
-                              <Input
-                                defaultChecked
-                                type="checkbox"
-                                disabled={true}
-                              />
-                              <span className="form-check-sign" />
-                            </Label>
-                          </FormGroup>
-                        </td>
-                        <td className="text-left">
-                          <p>
-                            <strong>24-48 Hours Prior to Departure: </strong>
-                            we will need to issue both an International Health
-                            Certificate and Tick / Tapeworm Treatment we have
-                            administered. Along with all files and additional
-                            certificates to validate pet records and results.
+                            <strong>4) </strong>The remaining 142 feet of
+                            chimney was spot pointed.
                           </p>
                         </td>
                       </tr>
@@ -395,7 +191,12 @@ function Dashboard() {
             </Card>
           </Col>
         </Row>
-        <Row style={{ marginBottom: "15vh" }}>
+        {/* checklist////////////////////////////////////////////////////////////////////////////////////////// */}
+        {/*  */}
+        {/*  */}
+        {/*  */}
+        {/*  */}
+        <Row style={{ marginBottom: "5vh" }}>
           <Col xs={12} md={6}>
             <Card id={Styles.bs} className="card-chart">
               <CardHeader>
@@ -414,7 +215,7 @@ function Dashboard() {
                       objectFit: "cover",
                       borderRadius: "15px",
                     }}
-                    src={CND}
+                    src={YCC}
                     alt="girl with dog"
                   />
                 </div>
@@ -424,7 +225,9 @@ function Dashboard() {
           <Col xs={12} md={6}>
             <Card id={Styles.bs} className="card-chart">
               <CardHeader>
-                {/* <CardTitle tag="h4">Requirements</CardTitle> */}
+                <CardTitle style={{ textAlign: "center" }} tag="h4">
+                  York Co. Courthouse
+                </CardTitle>
               </CardHeader>
               <CardBody>
                 <div
@@ -432,22 +235,111 @@ function Dashboard() {
                   className="chart-area"
                 >
                   <h3 style={{ margin: "30px" }} id={Styles.h3}>
-                    Your destination may have specific requirements that must be
-                    met before your pet can enter. Since the requirements are
-                    determined by each country and can change frequently, every
-                    plan pet travel will need to verified. Note that airlines
-                    may have separate requirements.
+                    This site has been the location of York County Courthouse
+                    since 1825. The original courthouse was replaced with this
+                    "new" structure in 1915. In 2016, extensive renovations were
+                    made to the interior and exterior. SRM, Inc. performed the
+                    exterior restoration work.
                   </h3>
                 </div>
               </CardBody>
             </Card>
           </Col>
         </Row>
+
+        {/* checklist///////////////////////////////////////////////////////////////////////////////////////////////////// */}
         <Row style={{ marginBottom: "15vh" }}>
+          <Col xs={1} md={1} />
+          <Col xs={10} md={10}>
+            <Card id={Styles.bs} className="card-tasks">
+              <CardHeader>
+                <CardTitle tag="h4">Scope Of Work</CardTitle>
+              </CardHeader>
+              <CardBody>
+                <div className="table-full-width table-responsive">
+                  <Table>
+                    <tbody>
+                      <tr>
+                        <td></td>
+                        <td className="text-left">
+                          <p>
+                            <strong>1) </strong>All exterior brick masonry,
+                            terra-cotta, limestone, and granite were cleaned.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td className="text-left">
+                          <p>
+                            <strong>2) </strong>
+                            Brick masonry mortar joints were inspected and spot
+                            pointed. All terra-cotta, limestone, and granite
+                            mortar joints were 100% tuck pointed.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td className="text-left">
+                          <p>
+                            <strong>3) </strong>All terra-cotta surfaces were
+                            coated using Edison Coating.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td className="text-left">
+                          <p>
+                            <strong>4) </strong>Limestone base walls were
+                            treated using Keim Consolidation treatment.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td className="text-left">
+                          <p>
+                            <strong>5) </strong>Damaged terra-cotta elements on
+                            the Crier's Porch were fabricated and replaced.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td className="text-left">
+                          <p>
+                            <strong>6) </strong>
+                            Basement walls were excavated and new waterproofing
+                            membrane was installed.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td className="text-left">
+                          <p>
+                            <strong>7) </strong>
+                            All brick masonry surfaces were treated using clear
+                            water repellent.
+                          </p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </Table>
+                </div>
+              </CardBody>
+            </Card>
+          </Col>
+        </Row>
+        <Row style={{ marginBottom: "5vh" }}>
           <Col xs={12} md={6}>
             <Card id={Styles.bs} className="card-chart">
               <CardHeader>
-                {/* <CardTitle tag="h4">New Updates</CardTitle> */}
+                <CardTitle style={{ textAlign: "center" }} tag="h4">
+                  Jackson Co. Courthouse
+                </CardTitle>
               </CardHeader>
               <CardBody>
                 <div
@@ -455,11 +347,11 @@ function Dashboard() {
                   className="chart-area"
                 >
                   <h3 style={{ margin: "30px" }} id={Styles.h3}>
-                    The process for taking a pet bird or other exotic animal out
-                    of the United States may involve multiple agencies including
-                    USDA APHIS Veterinary Services (VS), and U.S. Fish and
-                    Wildlife Service (FWS). It is critical that you meet ALL
-                    requirements for each of these agencies prior to export.
+                    The Jackson County Courthouse was built in early 1900 and
+                    was placed on this hill overlooking the town of Sylva. There
+                    are 198 steps leading up the hill to the Courthouse. The
+                    weight of the cupola on top of the Courthouse is 46,000
+                    pounds and has been rebuilt several times.
                   </h3>
                 </div>
               </CardBody>
@@ -468,7 +360,7 @@ function Dashboard() {
           <Col xs={12} md={6}>
             <Card id={Styles.bs} className="card-chart">
               <CardHeader>
-                {/* <CardTitle tag="h4">Updates</CardTitle> */}
+                {/* <CardTitle tag="h4">International Travel</CardTitle> */}
               </CardHeader>
               <CardBody>
                 <div
@@ -476,16 +368,415 @@ function Dashboard() {
                   className="chart-area"
                 >
                   <img
-                    className={Styles.hu}
+                    className={Styles.pp}
+                    style={{
+                      width: "90%",
+                      height: "50vh",
+                      objectFit: "cover",
+                      borderRadius: "15px",
+                    }}
+                    src={JCC}
+                    alt="Passport cheers"
+                  />
+                </div>
+              </CardBody>
+            </Card>
+          </Col>
+        </Row>
+        {/* checklist///////////////////////////////////////////////////////////////////////////////////////////////////// */}
+        <Row style={{ marginBottom: "15vh" }}>
+          <Col xs={1} md={1} />
+          <Col xs={10} md={10}>
+            <Card id={Styles.bs} className="card-tasks">
+              <CardHeader>
+                <CardTitle tag="h4">Scope Of Work</CardTitle>
+              </CardHeader>
+              <CardBody>
+                <div className="table-full-width table-responsive">
+                  <Table>
+                    <tbody>
+                      <tr>
+                        <td></td>
+                        <td className="text-left">
+                          <p>
+                            <strong>1) </strong>Approximately 500 cubic feet of
+                            deteriorated concrete in the steps. leading up to
+                            the courthouse was cut out and repaired using Sika
+                            123.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td className="text-left">
+                          <p>
+                            <strong>2) </strong>
+                            Once all concrete repairs were complete, surfaces
+                            were treated using Sika 144.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td className="text-left">
+                          <p>
+                            <strong>3) </strong>Exterior walls of the Courthouse
+                            were spot pointed and coated.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td className="text-left">
+                          <p>
+                            <strong>4) </strong>The cupola was removed and
+                            lowered into an adjacent parking lot.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td className="text-left">
+                          <p>
+                            <strong>5) </strong>The cupola was totally stripped
+                            down to the structural wood framing.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td className="text-left">
+                          <p>
+                            <strong>6) </strong>
+                            Deteriorated wood framing was replaced, new siding
+                            and new roof were installed.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td className="text-left">
+                          <p>
+                            <strong>7) </strong>
+                            The cupola was then lifted back into place and
+                            secured to the structure.
+                          </p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </Table>
+                </div>
+              </CardBody>
+            </Card>
+          </Col>
+        </Row>
+        {/* checklist////////////////////////////////////////////////////////////////////////////////////////// */}
+        <Row style={{ marginBottom: "5vh" }}>
+          <Col xs={12} md={6}>
+            <Card id={Styles.bs} className="card-chart">
+              <CardHeader>
+                {/* <CardTitle tag="h4">Requirements</CardTitle> */}
+              </CardHeader>
+              <CardBody>
+                <div
+                  style={{ textAlign: "center", height: "52vh" }}
+                  className="chart-area"
+                >
+                  <img
+                    className={Styles.cnd}
                     style={{
                       width: "90%",
                       height: "48vh",
                       objectFit: "cover",
                       borderRadius: "15px",
                     }}
-                    src={HU}
+                    src={ACC}
                     alt="girl with dog"
                   />
+                </div>
+              </CardBody>
+            </Card>
+          </Col>
+          <Col xs={12} md={6}>
+            <Card id={Styles.bs} className="card-chart">
+              <CardHeader>
+                <CardTitle style={{ textAlign: "center" }} tag="h4">
+                  Anson Co. Courthouse
+                </CardTitle>
+              </CardHeader>
+              <CardBody>
+                <div
+                  style={{ textAlign: "center", height: "48vh" }}
+                  className="chart-area"
+                >
+                  <h3 style={{ margin: "30px" }} id={Styles.h3}>
+                    Construction on the original Anson County Courthouse began
+                    in 1910 and work was completed in 1912. The original cost to
+                    construct the Courthouse was $990,000,00, back in 1912.
+                    Recent restoration to the exterior of the Courthouse cost
+                    over one million dollars. The recent restoration project was
+                    the first time since 1912 any work had been done on the
+                    exterior of the building.
+                  </h3>
+                </div>
+              </CardBody>
+            </Card>
+          </Col>
+        </Row>
+
+        {/* checklist///////////////////////////////////////////////////////////////////////////////////////////////////// */}
+        <Row style={{ marginBottom: "15vh" }}>
+          <Col xs={1} md={1} />
+          <Col xs={10} md={10}>
+            <Card id={Styles.bs} className="card-tasks">
+              <CardHeader>
+                <CardTitle tag="h4">Scope Of Work</CardTitle>
+              </CardHeader>
+              <CardBody>
+                <div className="table-full-width table-responsive">
+                  <Table>
+                    <tbody>
+                      <tr>
+                        <td></td>
+                        <td className="text-left">
+                          <p>
+                            <strong>1) </strong>All brick, terra-cotta, concrete
+                            and granite steps were cleaned.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td className="text-left">
+                          <p>
+                            <strong>2) </strong>
+                            Brick masonry mortar joints were spot pointed. All
+                            terra-cotta and concrete mortar joints were cut out
+                            100% and solidly re-pointed.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td className="text-left">
+                          <p>
+                            <strong>3) </strong>All terra-cotta and concrete
+                            surfaces were coated with Keim Mineral Coatings.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td className="text-left">
+                          <p>
+                            <strong>4) </strong>Broken and spalled brick masonry
+                            units were replaced.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td className="text-left">
+                          <p>
+                            <strong>5) </strong>Brick masonry surfaces were
+                            treated using clear masonry sealer.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td className="text-left">
+                          <p>
+                            <strong>6) </strong>
+                            Spalled areas in the granite steps were cut out and
+                            new granite dutchman installed.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td className="text-left">
+                          <p>
+                            <strong>7) </strong>
+                            Bronze plaques and statue were refinished.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td className="text-left">
+                          <p>
+                            <strong>8) </strong>All concrete sidewalks were
+                            replaced.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td className="text-left">
+                          <p>
+                            <strong>9) </strong>Sandstone walls around a gazebo
+                            area were re-pointed and finished with Keim Mineral
+                            Coatings.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td className="text-left">
+                          <p>
+                            <strong>10) </strong>Terra-cotta roofing was
+                            replaced with new terra-cotta tiles.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td className="text-left">
+                          <p>
+                            <strong>11) </strong>Wood windows were replaced with
+                            new aluminum windows, matching the existing for
+                            historical accuracy.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td className="text-left">
+                          <p>
+                            <strong>12) </strong>New wood doors replaced the
+                            existing doors; also matching the existing for
+                            historical accuracy.
+                          </p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </Table>
+                </div>
+              </CardBody>
+            </Card>
+          </Col>
+        </Row>
+        <Row style={{ marginBottom: "5vh" }}>
+          <Col xs={12} md={6}>
+            <Card id={Styles.bs} className="card-chart">
+              <CardHeader>
+                <CardTitle style={{ textAlign: "center" }} tag="h4">
+                  Henderson Co. Courthouse
+                </CardTitle>
+              </CardHeader>
+              <CardBody>
+                <div
+                  style={{ textAlign: "center", height: "48vh" }}
+                  className="chart-area"
+                >
+                  <h3 style={{ margin: "30px" }} id={Styles.h3}>
+                    Construction on the Henderson County Courthouse was
+                    completed in 1923. It sat abandoned for many years before a
+                    total renovation was started in 2006. The building was then
+                    converted into a mix use property used by the town of
+                    Hendersonville.
+                  </h3>
+                </div>
+              </CardBody>
+            </Card>
+          </Col>
+          <Col xs={12} md={6}>
+            <Card id={Styles.bs} className="card-chart">
+              <CardHeader>
+                {/* <CardTitle tag="h4">International Travel</CardTitle> */}
+              </CardHeader>
+              <CardBody>
+                <div
+                  style={{ textAlign: "center", height: "52vh" }}
+                  className="chart-area"
+                >
+                  <img
+                    className={Styles.pp}
+                    style={{
+                      width: "90%",
+                      height: "50vh",
+                      objectFit: "cover",
+                      borderRadius: "15px",
+                    }}
+                    src={HCCO}
+                    alt="Passport cheers"
+                  />
+                </div>
+              </CardBody>
+            </Card>
+          </Col>
+        </Row>
+        {/* checklist///////////////////////////////////////////////////////////////////////////////////////////////////// */}
+        <Row style={{ marginBottom: "15vh" }}>
+          <Col xs={1} md={1} />
+          <Col xs={10} md={10}>
+            <Card id={Styles.bs} className="card-tasks">
+              <CardHeader>
+                <CardTitle tag="h4">Scope Of Work</CardTitle>
+              </CardHeader>
+              <CardBody>
+                <div className="table-full-width table-responsive">
+                  <Table>
+                    <tbody>
+                      <tr>
+                        <td></td>
+                        <td className="text-left">
+                          <p>
+                            <strong>1) </strong>All brick and stone walls were
+                            cleaned.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td className="text-left">
+                          <p>
+                            <strong>2) </strong>Masonry walls were tuckpointed.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td className="text-left">
+                          <p>
+                            <strong>3) </strong>There were 14 brick stucco
+                            columns. All stucco was removed down to the brick
+                            masonry substrate and new stucco applied.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td className="text-left">
+                          <p>
+                            <strong>4) </strong>Portions of the capitals on top
+                            of the columns were missing. Sections were removed
+                            and replacement pieces were cast and reinstalled.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td className="text-left">
+                          <p>
+                            <strong>5) </strong>Stucco columns, concrete water
+                            tables, and concrete trim were coated using
+                            elastomeric coatings.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td className="text-left">
+                          <p>
+                            <strong>6) </strong>All brick masonry walls were
+                            treated using a clear masonry sealer.
+                          </p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </Table>
                 </div>
               </CardBody>
             </Card>

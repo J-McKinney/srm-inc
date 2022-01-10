@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-// import CatDog from "../../assets/img/catDog.png";
-// import DCW from "../../assets/img/dogCarWindow.jpg";
-// import DIC from "../../assets/img/dogInCrate.jpg";
-import Crew from "../../assets/img/GroupOfficePic.jpg";
-// import Door from "../../assets/img/MVCFrontDoor.jpeg";
-import BSD from "../../assets/img/backSeatDog.jpg";
+import Hole from "../../assets/img/hole.jpg";
+import Museum from "../../assets/img/museum.jpg";
+import NC from "../../assets/img/nightCity.jpg";
+import PC from "../../assets/img/pourConcrete.jpg";
+import Schem from "../../assets/img/schematics.jpg";
+import WB from "../../assets/img/whiteBuilding.jpg";
 import Swiper from "swiper";
 ////////////CSS////////////
 //swiper css must come first
@@ -48,7 +48,7 @@ class FadeEffectCarousel extends Component {
               <img
                 style={{ width: "100vw", height: "89.99vh" }}
                 className="d-block w-100"
-                src={Crew}
+                src={Hole}
                 alt="First slide"
               />
             </div>
@@ -56,7 +56,7 @@ class FadeEffectCarousel extends Component {
               <img
                 style={{ width: "100vw", height: "89.99vh" }}
                 className="d-block w-100"
-                src={BSD}
+                src={Museum}
                 alt="Second slide"
               />
             </div>
@@ -64,7 +64,7 @@ class FadeEffectCarousel extends Component {
               <img
                 style={{ width: "100vw", height: "89.99vh" }}
                 className="d-block w-100"
-                src={Crew}
+                src={NC}
                 alt="Third slide"
               />
             </div>
@@ -72,7 +72,7 @@ class FadeEffectCarousel extends Component {
               <img
                 style={{ width: "100vw", height: "89.99vh" }}
                 className="d-block w-100"
-                src={BSD}
+                src={PC}
                 alt="Fourth slide"
               />
             </div>
@@ -80,7 +80,7 @@ class FadeEffectCarousel extends Component {
               <img
                 style={{ width: "100vw", height: "89.99vh" }}
                 className="d-block w-100"
-                src={Crew}
+                src={Schem}
                 alt="Fifth slide"
               />
             </div>
@@ -88,7 +88,7 @@ class FadeEffectCarousel extends Component {
               <img
                 style={{ width: "100vw", height: "89.99vh" }}
                 className="d-block w-100"
-                src={BSD}
+                src={WB}
                 alt="Sixth slide"
               />
             </div>

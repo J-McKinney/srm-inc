@@ -9,8 +9,8 @@ const MapWrapper = () => {
   React.useEffect(() => {
     let google = window.google;
     let map = mapRef.current;
-    let lat = "33.95526469327193";
-    let lng = "-84.66014725998876";
+    let lat = "35.19743726312217";
+    let lng = "-80.79619240095587";
     const myLatlng = new google.maps.LatLng(lat, lng);
     const mapOptions = {
       zoom: 16,

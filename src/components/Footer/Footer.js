@@ -19,28 +19,6 @@ function Footer(props) {
               <Button
                 className="btn-neutral btn-icon btn-round"
                 color="default"
-                href="/"
-                size="lg"
-              >
-                <i
-                  style={{ color: "steelblue", marginTop: "6px" }}
-                  className="fab fa-facebook-f fa-3x"
-                />
-              </Button>
-              <Button
-                className="btn-neutral btn-icon btn-round"
-                color="default"
-                href="/"
-                size="lg"
-              >
-                <i
-                  style={{ color: "royalblue", marginTop: "6px" }}
-                  className="fab fa-linkedin-in fa-3x"
-                />
-              </Button>
-              <Button
-                className="btn-neutral btn-icon btn-round"
-                color="default"
                 href="https://www.google.com/maps/place/3826+Miriam+Dr,+Charlotte,+NC+28205/@35.1974255,-80.796309,21z/data=!4m5!3m4!1s0x88542013b52f1475:0xfaa7872747fe8db7!8m2!3d35.1974011!4d-80.7961843"
                 size="lg"
               >
@@ -63,17 +41,19 @@ function Footer(props) {
           <div
             style={{
               color: "#A3533E",
-              marginTop: "4vh",
-              background: "white",
-              borderRadius: "15px",
-              boxShadow:
-                "-1px -1px 2px 2px hsl(0, 0%, 39%), 2px 2px 2px 1px hsl(0, 0%, 79%)",
+              background: "#A5A3A7",
+              fontWeight: "900",
+              fontSize: "x-large",
             }}
             className="copyright"
           >
             &copy; {1900 + new Date().getYear()},{" "}
             <a
-              style={{ color: "#A3533E" }}
+              style={{
+                color: "#A3533E",
+                fontWeight: "900",
+                fontSize: "x-large",
+              }}
               href="https://www.srm-inc.net//"
               target="_blank"
               rel="noopener noreferrer"
@@ -82,7 +62,11 @@ function Footer(props) {
             </a>{" "}
             &nbsp;{" "}
             <a
-              style={{ color: "#A3533E" }}
+              style={{
+                color: "#A3533E",
+                fontWeight: "900",
+                fontSize: "x-large",
+              }}
               href="tel:7043347663"
               target="_blank"
               rel="noopener noreferrer"

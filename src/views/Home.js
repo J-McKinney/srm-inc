@@ -2,13 +2,30 @@
 import React from "react";
 import Carousel from "../components/FadeEffectCarousel/FadeEffectCarousel";
 import Styles from "./style.module.css";
-import CatDog from "../assets/img/catDog.png";
-import DIC from "../assets/img/dogInCrate.jpg";
-import Crew from "../assets/img/GroupOfficePic.jpg";
-import JP from "../assets/img/JPeckich.jpg";
-import BSD from "../assets/img/backSeatDog.jpg";
-import CC from "../assets/img/catCase.jpg";
-import HD from "../assets/img/hikerDog.jpg";
+import ELC from "../assets/img/ELC.png";
+import BC from "../assets/img/BC.png";
+import CLC from "../assets/img/CLC.png";
+import BB from "../assets/img/BB.png";
+import DPPD from "../assets/img/DPPD.png";
+import WTD from "../assets/img/WTD.png";
+import DBAP from "../assets/img/DBAP.png";
+import FB from "../assets/img/FB.png";
+import HCC from "../assets/img/HCC.png";
+import DFS from "../assets/img/DFS.png";
+import CIS from "../assets/img/CIS.png";
+import FBC from "../assets/img/FBC.png";
+import BPC from "../assets/img/BPC.png";
+import DCDC from "../assets/img/DCDC.png";
+import FSNM from "../assets/img/FSNM.png";
+import WW from "../assets/img/whiteWall.jpg";
+import SW from "../assets/img/stoneWall.jpg";
+import RT from "../assets/img/roofTruss.jpg";
+import WP from "../assets/img/waterProofing.png";
+import PC from "../assets/img/pourConcrete.jpg";
+import WB from "../assets/img/whiteBuilding.jpg";
+import SS from "../assets/img/smokeStack.jpg";
+import Draw from "../assets/img/draw.jpg";
+import Arc from "../assets/img/arc.jpg";
 
 import {
   Card,
@@ -87,9 +104,15 @@ function Home() {
                             </CardTitle>
                             <img
                               className={Styles.crew}
-                              src={Crew}
+                              src={SW}
                               alt="MVC Crew"
                             />
+                            <p>
+                              When it comes to historic masonry restoration,
+                              through analysis of mortar and brick masonry is
+                              essential to the success of any restoration
+                              project.
+                            </p>
                           </Col>
                           <Col xl={4} lg={12} md={12} xs={12}>
                             <CardTitle
@@ -104,9 +127,14 @@ function Home() {
                             </CardTitle>
                             <img
                               className={Styles.crew}
-                              src={Crew}
+                              src={RT}
                               alt="MVC Crew"
                             />
+                            <p>
+                              An important part of every building envelope; the
+                              roof is primarily the first line of defense for
+                              water intrusion into any structure.
+                            </p>
                           </Col>
                           <Col xl={4} lg={12} md={12} xs={12}>
                             <CardTitle
@@ -121,9 +149,16 @@ function Home() {
                             </CardTitle>
                             <img
                               className={Styles.jp}
-                              src={JP}
+                              src={WP}
                               alt="Julian Peckich"
                             />
+                            <p>
+                              A fundamental part of any building envelope,
+                              waterproofing includes caulking and sealants that
+                              provides protection against moisture infiltration,
+                              assists in climate control, and allows proper
+                              expansion and contraction of building materials.
+                            </p>
                           </Col>
                         </Row>
                       </Col>
@@ -144,9 +179,16 @@ function Home() {
                             </CardTitle>
                             <img
                               className={Styles.crew}
-                              src={Crew}
+                              src={WB}
                               alt="MVC Crew"
                             />
+                            <p>
+                              Choosing the proper coating material requires
+                              evaluation of each surface being treated. This
+                              ensures that the product being selected will both
+                              properly protect the building façade and provide a
+                              durable long lasting coating.
+                            </p>
                           </Col>
                           <Col xl={4} lg={12} md={12} xs={12}>
                             <CardTitle
@@ -161,9 +203,15 @@ function Home() {
                             </CardTitle>
                             <img
                               className={Styles.crew}
-                              src={Crew}
+                              src={SS}
                               alt="MVC Crew"
                             />
+                            <p>
+                              No matter the shape, size or use of a structure;
+                              regular scheduled inspections and maintenance is a
+                              necessity to preclude water infiltration and
+                              failure of building components.
+                            </p>
                           </Col>
                           <Col xl={4} lg={12} md={12} xs={12}>
                             <CardTitle
@@ -178,9 +226,17 @@ function Home() {
                             </CardTitle>
                             <img
                               className={Styles.jp}
-                              src={JP}
+                              src={PC}
                               alt="Julian Peckich"
                             />
+                            <p>
+                              One of the most durable building materials,
+                              concrete is susceptible to water infiltration
+                              through cracking; this leads to corrosion of
+                              reinforcing bars, freeze/ thaw; both of which
+                              causes spelling and deterioration of concrete
+                              surfaces.{" "}
+                            </p>
                           </Col>
                         </Row>
                       </Col>
@@ -192,7 +248,8 @@ function Home() {
             <Container
               style={{
                 paddingTop: "2vh",
-                background: "white",
+                // background: "white",
+                backgroundImage: `url(${WW})`,
               }}
               fluid
             >
@@ -231,19 +288,14 @@ function Home() {
                   </h3>
                 </Col>
                 <Col className="ml-auto mr-auto" lg={6} md={12} xs={12}>
-                  <Card
+                  <img
                     style={{
-                      boxShadow:
-                        "-1px -1px 2px 2px hsl(0, 0%, 0%), 5px 5px 5px 3px hsl(0, 0%, 0%) !important",
-                      borderRadius: "15px",
+                      height: "95%",
                     }}
-                  >
-                    <img
-                      className={Styles.DIC}
-                      src={DIC}
-                      alt="Dog looking out car window"
-                    />
-                  </Card>
+                    className={Styles.DIC}
+                    src={Draw}
+                    alt="Dog looking out car window"
+                  />
                 </Col>
                 <Col className="align-self-center" lg={6} md={12} xs={12}>
                   <CardTitle
@@ -277,19 +329,14 @@ function Home() {
                   </h3>
                 </Col>
                 <Col className="ml-auto mr-auto" lg={6} md={12} xs={12}>
-                  <Card
+                  <img
                     style={{
-                      boxShadow:
-                        "-1px -1px 2px 2px hsl(0, 0%, 0%), 5px 5px 5px 3px hsl(0, 0%, 0%) !important",
-                      borderRadius: "15px",
+                      height: "95%",
                     }}
-                  >
-                    <img
-                      className={Styles.DIC}
-                      src={DIC}
-                      alt="Dog looking out car window"
-                    />
-                  </Card>
+                    className={Styles.DIC}
+                    src={Arc}
+                    alt="Dog looking out car window"
+                  />
                 </Col>
               </Row>
             </Container>
@@ -334,6 +381,11 @@ function Home() {
                       >
                         <Row>
                           <Col xl={4} lg={12} md={12} xs={12}>
+                            <img
+                              className={Styles.cc}
+                              src={ELC}
+                              alt="Cat in suit case"
+                            />
                             <h3
                               style={{
                                 color: "black",
@@ -343,13 +395,13 @@ function Home() {
                             >
                               Ebenezer Lutheran Church
                             </h3>
-                            <img
-                              className={Styles.cc}
-                              src={CC}
-                              alt="Cat in suit case"
-                            />
                           </Col>
                           <Col xl={4} lg={12} md={12} xs={12}>
+                            <img
+                              className={Styles.cc}
+                              src={BC}
+                              alt="Cat in suit case"
+                            />
                             <h3
                               style={{
                                 color: "black",
@@ -359,13 +411,13 @@ function Home() {
                             >
                               Benedict College{" "}
                             </h3>
-                            <img
-                              className={Styles.cc}
-                              src={CC}
-                              alt="Cat in suit case"
-                            />
                           </Col>
                           <Col xl={4} lg={12} md={12} xs={12}>
+                            <img
+                              className={Styles.cc}
+                              src={CLC}
+                              alt="Cat in suit case"
+                            />
                             <h3
                               style={{
                                 color: "black",
@@ -375,11 +427,6 @@ function Home() {
                             >
                               Christiana Lutheran Church
                             </h3>
-                            <img
-                              className={Styles.cc}
-                              src={CC}
-                              alt="Cat in suit case"
-                            />
                           </Col>
                         </Row>
                       </Col>
@@ -394,6 +441,11 @@ function Home() {
                       >
                         <Row>
                           <Col xl={4} lg={12} md={12} xs={12}>
+                            <img
+                              className={Styles.bsd}
+                              src={BB}
+                              alt="Dog in a hatchback"
+                            />
                             <h3
                               style={{
                                 color: "black",
@@ -403,13 +455,13 @@ function Home() {
                             >
                               Belk Building
                             </h3>
-                            <img
-                              className={Styles.bsd}
-                              src={BSD}
-                              alt="Dog in a hatchback"
-                            />
                           </Col>
                           <Col xl={4} lg={12} md={12} xs={12}>
+                            <img
+                              className={Styles.cc}
+                              src={DPPD}
+                              alt="Cat in suit case"
+                            />
                             <h3
                               style={{
                                 color: "black",
@@ -419,13 +471,13 @@ function Home() {
                             >
                               Discovery Place Parking Deck
                             </h3>
-                            <img
-                              className={Styles.cc}
-                              src={CC}
-                              alt="Cat in suit case"
-                            />
                           </Col>
                           <Col xl={4} lg={12} md={12} xs={12}>
+                            <img
+                              className={Styles.hd}
+                              src={WTD}
+                              alt="Dog hitchhiking"
+                            />
                             <h3
                               style={{
                                 color: "black",
@@ -435,11 +487,6 @@ function Home() {
                             >
                               Wilson Train Depot
                             </h3>
-                            <img
-                              className={Styles.hd}
-                              src={HD}
-                              alt="Dog hitchhiking"
-                            />
                           </Col>
                         </Row>
                       </Col>
@@ -454,6 +501,11 @@ function Home() {
                       >
                         <Row>
                           <Col xl={4} lg={12} md={12} xs={12}>
+                            <img
+                              className={Styles.bsd}
+                              src={DBAP}
+                              alt="Dog in a hatchback"
+                            />
                             <h3
                               style={{
                                 color: "black",
@@ -463,13 +515,13 @@ function Home() {
                             >
                               Durham Bulls Athletic PArk
                             </h3>
-                            <img
-                              className={Styles.bsd}
-                              src={BSD}
-                              alt="Dog in a hatchback"
-                            />
                           </Col>
                           <Col xl={4} lg={12} md={12} xs={12}>
+                            <img
+                              className={Styles.cc}
+                              src={FB}
+                              alt="Cat in suit case"
+                            />
                             <h3
                               style={{
                                 color: "black",
@@ -479,13 +531,13 @@ function Home() {
                             >
                               F & M Bank
                             </h3>
-                            <img
-                              className={Styles.cc}
-                              src={CC}
-                              alt="Cat in suit case"
-                            />
                           </Col>
                           <Col xl={4} lg={12} md={12} xs={12}>
+                            <img
+                              className={Styles.hd}
+                              src={HCC}
+                              alt="Dog hitchhiking"
+                            />
                             <h3
                               style={{
                                 color: "black",
@@ -495,11 +547,6 @@ function Home() {
                             >
                               Holmes Convocation Center
                             </h3>
-                            <img
-                              className={Styles.hd}
-                              src={HD}
-                              alt="Dog hitchhiking"
-                            />
                           </Col>
                         </Row>
                       </Col>
@@ -514,6 +561,11 @@ function Home() {
                       >
                         <Row>
                           <Col xl={4} lg={12} md={12} xs={12}>
+                            <img
+                              className={Styles.bsd}
+                              src={DFS}
+                              alt="Dog in a hatchback"
+                            />
                             <h3
                               style={{
                                 color: "black",
@@ -523,13 +575,13 @@ function Home() {
                             >
                               Dowdy-Ficklen Stadium
                             </h3>
-                            <img
-                              className={Styles.bsd}
-                              src={BSD}
-                              alt="Dog in a hatchback"
-                            />
                           </Col>
                           <Col xl={4} lg={12} md={12} xs={12}>
+                            <img
+                              className={Styles.cc}
+                              src={CIS}
+                              alt="Cat in suit case"
+                            />
                             <h3
                               style={{
                                 color: "black",
@@ -539,13 +591,13 @@ function Home() {
                             >
                               Cameron Indoor Stadium
                             </h3>
-                            <img
-                              className={Styles.cc}
-                              src={CC}
-                              alt="Cat in suit case"
-                            />
                           </Col>
                           <Col xl={4} lg={12} md={12} xs={12}>
+                            <img
+                              className={Styles.hd}
+                              src={FBC}
+                              alt="Dog hitchhiking"
+                            />
                             <h3
                               style={{
                                 color: "black",
@@ -555,11 +607,6 @@ function Home() {
                             >
                               First Baptist Church
                             </h3>
-                            <img
-                              className={Styles.hd}
-                              src={HD}
-                              alt="Dog hitchhiking"
-                            />
                           </Col>
                         </Row>
                       </Col>
@@ -574,6 +621,11 @@ function Home() {
                       >
                         <Row>
                           <Col xl={4} lg={12} md={12} xs={12}>
+                            <img
+                              className={Styles.bsd}
+                              src={BPC}
+                              alt="Dog in a hatchback"
+                            />
                             <h3
                               style={{
                                 color: "black",
@@ -583,13 +635,13 @@ function Home() {
                             >
                               Bathesda Presbyterian Church
                             </h3>
-                            <img
-                              className={Styles.bsd}
-                              src={BSD}
-                              alt="Dog in a hatchback"
-                            />
                           </Col>
                           <Col xl={4} lg={12} md={12} xs={12}>
+                            <img
+                              className={Styles.cc}
+                              src={DCDC}
+                              alt="Cat in suit case"
+                            />
                             <h3
                               style={{
                                 color: "black",
@@ -599,13 +651,13 @@ function Home() {
                             >
                               Durham County Detention Center
                             </h3>
-                            <img
-                              className={Styles.cc}
-                              src={CC}
-                              alt="Cat in suit case"
-                            />
                           </Col>
                           <Col xl={4} lg={12} md={12} xs={12}>
+                            <img
+                              className={Styles.hd}
+                              src={FSNM}
+                              alt="Dog hitchhiking"
+                            />
                             <h3
                               style={{
                                 color: "black",
@@ -615,11 +667,6 @@ function Home() {
                             >
                               Fort Sumter National Monument
                             </h3>
-                            <img
-                              className={Styles.hd}
-                              src={HD}
-                              alt="Dog hitchhiking"
-                            />
                           </Col>
                         </Row>
                       </Col>

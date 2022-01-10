@@ -141,7 +141,7 @@ function DemoNavbar(props) {
                     }}
                     id={Styles.h5}
                   >
-                    Location
+                    Find Us
                   </h5>
                   <p>
                     <span
@@ -160,7 +160,7 @@ function DemoNavbar(props) {
                         }}
                         className="now-ui-icons location_pin"
                       />{" "}
-                      Location
+                      Find Us
                     </span>
                   </p>
                 </Link>
