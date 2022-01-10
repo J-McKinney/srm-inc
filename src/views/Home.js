@@ -1,5 +1,6 @@
 /*eslint-disable*/
 import React from "react";
+import Carousel from "../components/FadeEffectCarousel/FadeEffectCarousel"
 import Styles from "./style.module.css";
 import CatDog from "../assets/img/catDog.png";
 import DCW from "../assets/img/dogCarWindow.jpg";
@@ -27,7 +28,13 @@ function Home() {
   return (
     <>
       <div className={Styles.wrapper}>
-        <div
+      <Carousel 
+            style={{
+              height: "89.99vh !important",
+              marginTop: "0.01vh",
+              position: "relative",
+            }} />
+        {/* <div
             style={{
               height: "89.99vh",
               marginTop: "0.01vh",
@@ -38,7 +45,7 @@ function Home() {
               position: "relative",
             }}
             className="content"
-          />
+          /> */}
         <div style={{ marginTop: "10vh" }} className="content">
           <Row
             style={{

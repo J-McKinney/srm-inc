@@ -1,0 +1,30 @@
+.swiper-container {
+  width: 100vw;
+  height: 89.99vh;
+  background-color: #282c34;
+}
+
+.img {
+  height: 500px;
+  width: 700px;
+  object-fit: cover;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  transform: translateX(0);
+  opacity: 1;
+  visibility: hidden;
+}
+
+.swiper-container:hover > .swiper-button-prev {
+  transform: translateX(0);
+  opacity: 1;
+  visibility: visible;
+}
+
+.swiper-container:hover > .swiper-button-next {
+  transform: translateX(0);
+  opacity: 1;
+  visibility: visible;
+}

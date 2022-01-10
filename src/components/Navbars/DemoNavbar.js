@@ -8,6 +8,8 @@ import {
   NavItem,
   Container,
 } from "reactstrap";
+import Star from "../../assets/img/star.png";
+import Circle from "../../assets/img/circle.png";
 import Styles from "../../views/style.module.css";
 
 function DemoNavbar(props) {
@@ -47,11 +49,6 @@ function DemoNavbar(props) {
     // add or remove classes depending if we are on full-screen-maps page or not
     <>
       <Navbar
-        // color={
-        //   props.location.pathname.indexOf("full-screen-maps") !== -1
-        //     ? "white"
-        //     : color
-        // }
         expand="lg"
         className={
           props.location.pathname.indexOf("full-screen-maps") !== -1
@@ -65,10 +62,27 @@ function DemoNavbar(props) {
             <div className="MVCLogo">
               <Link to="/srm-inc/home" className="nav-link">
                 <img
-                  // style={{ margin: "0", height: "60px", width: "60px" }}
-                  // src={TLI}
-                  style={{ margin: "0", height: "70px", width: "70px" }}
-                  src={`https://d1l9wtg77iuzz5.cloudfront.net/assets/5637/233039/original_logo.svg?1527722828`}
+                  style={{
+                    position: "absolute",
+                    top: "0",
+                    left: "0",
+                    margin: "0",
+                    height: "70px",
+                    width: "70px",
+                  }}
+                  src={Star}
+                  alt="Logo"
+                />
+                <img
+                  style={{
+                    position: "absolute",
+                    top: "0",
+                    left: "0",
+                    margin: "0",
+                    height: "70px",
+                    width: "70px",
+                  }}
+                  src={Circle}
                   alt="Logo"
                 />
               </Link>
@@ -96,24 +110,24 @@ function DemoNavbar(props) {
                     Home
                   </h5>
                   {/* <p> */}
-                    <span
+                  <span
+                    style={{
+                      color: "lightseagreen",
+                      fontSize: "2em",
+                      fontWeight: "600",
+                    }}
+                    className="d-lg-none d-md-block"
+                  >
+                    <i
                       style={{
                         color: "lightseagreen",
-                        fontSize: "2em",
+                        fontSize: "1em",
                         fontWeight: "600",
                       }}
-                      className="d-lg-none d-md-block"
-                    >
-                      <i
-                        style={{
-                          color: "lightseagreen",
-                          fontSize: "1em",
-                          fontWeight: "600",
-                        }}
-                        className="now-ui-icons shopping_shop"
-                      />{" "}
-                      Home
-                    </span>
+                      className="now-ui-icons shopping_shop"
+                    />{" "}
+                    Home
+                  </span>
                   {/* </p> */}
                 </Link>
               </NavItem>
