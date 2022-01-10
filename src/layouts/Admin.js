@@ -51,7 +51,9 @@ function Admin(props) {
           <Redirect from="/srm-inc" to="/srm-inc/home" />
         </Switch>
         <h2 className="align-self-center" id={Styles.title}>
-          <span id={Styles.span}>Southern Restoration Maintenance, Inc.</span>
+          <span style={{ color: "#CAC6C9" }} id={Styles.span}>
+            Southern Restoration Maintenance, Inc.
+          </span>
         </h2>
         <Footer fluid />
       </div>

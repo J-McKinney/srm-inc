@@ -19,6 +19,11 @@
   /* margin: 0; */
 }
 
+.logo {
+  height: 70px;
+  width: 70px;
+}
+
 /* These are all pictures */
 .DCW,
 .DIC,
@@ -37,7 +42,7 @@
 }
 
 .DCW,
-.DIC,
+/* .DIC, */
 .jp,
 .door,
 .crew,
@@ -98,16 +103,34 @@
   }
 }
 
+@media only screen and (max-width: 1416px) {
+  .name {
+    font-size: x-large;
+  }
+  #span {
+    font-size: medium;
+  }
+}
+
 @media only screen and (max-width: 1203px) {
   #h3 {
     font-size: large;
+  }
+  #span {
+    font-size: medium;
   }
 }
 
 @media only screen and (max-width: 1154px) {
   #span {
     top: 4vh;
-    font-size: x-large;
+    font-size: large;
+  }
+}
+
+@media only screen and (max-width: 1110px) {
+  .name {
+    font-size: medium;
   }
 }
 
@@ -125,6 +148,10 @@
   #span {
     /* display: none; */
     left: 20vw;
+  }
+  .logo {
+    height: 60px;
+    width: 60px;
   }
 }
 

@@ -10,7 +10,7 @@ function Footer(props) {
   return (
     <>
       <footer
-        style={{ background: "dimgray" }}
+        style={{ background: "#A5A3A7" }}
         className={"footer" + (props.default ? " footer-default" : "")}
       >
         <Container fluid={props.fluid ? true : false}>
@@ -19,7 +19,7 @@ function Footer(props) {
               <Button
                 className="btn-neutral btn-icon btn-round"
                 color="default"
-                href="https://www.facebook.com/MariettaVetClinic/"
+                href="/"
                 size="lg"
               >
                 <i
@@ -30,7 +30,7 @@ function Footer(props) {
               <Button
                 className="btn-neutral btn-icon btn-round"
                 color="default"
-                href="https://www.linkedin.com/company/marietta-vet-clinic/"
+                href="/"
                 size="lg"
               >
                 <i
@@ -41,7 +41,7 @@ function Footer(props) {
               <Button
                 className="btn-neutral btn-icon btn-round"
                 color="default"
-                href="https://www.google.com/maps?cid=14756440109326445849"
+                href="https://www.google.com/maps/place/3826+Miriam+Dr,+Charlotte,+NC+28205/@35.1974255,-80.796309,21z/data=!4m5!3m4!1s0x88542013b52f1475:0xfaa7872747fe8db7!8m2!3d35.1974011!4d-80.7961843"
                 size="lg"
               >
                 <i
@@ -62,7 +62,7 @@ function Footer(props) {
           </nav>
           <div
             style={{
-              color: "lightseagreen",
+              color: "#A3533E",
               marginTop: "4vh",
               background: "white",
               borderRadius: "15px",
@@ -73,21 +73,21 @@ function Footer(props) {
           >
             &copy; {1900 + new Date().getYear()},{" "}
             <a
-              style={{ color: "lightseagreen" }}
-              href="https://www.mariettavetclinic.com/"
+              style={{ color: "#A3533E" }}
+              href="https://www.srm-inc.net//"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Marietta Veterinary Clinic
+              SOUTHERN RESTORATION MAINTENANCE, INC.
             </a>{" "}
             &nbsp;{" "}
             <a
-              style={{ color: "lightseagreen" }}
-              href="tel:4049195150"
+              style={{ color: "#A3533E" }}
+              href="tel:7043347663"
               target="_blank"
               rel="noopener noreferrer"
             >
-              (404)9195150
+              (704)3347663
             </a>
           </div>
         </Container>

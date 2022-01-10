@@ -49,6 +49,7 @@ function DemoNavbar(props) {
     // add or remove classes depending if we are on full-screen-maps page or not
     <>
       <Navbar
+        style={{ background: "black !important" }}
         expand="lg"
         className={
           props.location.pathname.indexOf("full-screen-maps") !== -1
@@ -62,25 +63,23 @@ function DemoNavbar(props) {
             <div className="MVCLogo">
               <Link to="/srm-inc/home" className="nav-link">
                 <img
+                  className={Styles.logo}
                   style={{
                     position: "absolute",
                     top: "0",
                     left: "0",
                     margin: "0",
-                    height: "70px",
-                    width: "70px",
                   }}
                   src={Star}
                   alt="Logo"
                 />
                 <img
+                  className={Styles.logo}
                   style={{
                     position: "absolute",
                     top: "0",
                     left: "0",
                     margin: "0",
-                    height: "70px",
-                    width: "70px",
                   }}
                   src={Circle}
                   alt="Logo"
@@ -101,7 +100,7 @@ function DemoNavbar(props) {
                 <Link to="/srm-inc/home" className="nav-link">
                   <h5
                     style={{
-                      color: "lightseagreen",
+                      color: "#A3533E",
                       fontSize: "2em",
                       fontWeight: "600",
                     }}
@@ -112,7 +111,7 @@ function DemoNavbar(props) {
                   {/* <p> */}
                   <span
                     style={{
-                      color: "lightseagreen",
+                      color: "#A3533E",
                       fontSize: "2em",
                       fontWeight: "600",
                     }}
@@ -120,7 +119,7 @@ function DemoNavbar(props) {
                   >
                     <i
                       style={{
-                        color: "lightseagreen",
+                        color: "#A3533E",
                         fontSize: "1em",
                         fontWeight: "600",
                       }}
@@ -131,58 +130,23 @@ function DemoNavbar(props) {
                   {/* </p> */}
                 </Link>
               </NavItem>
-              {/* Form */}
-              <NavItem>
-                <Link to="/srm-inc/travel-form" className="nav-link">
-                  <h5
-                    style={{
-                      color: "lightseagreen",
-                      fontSize: "2em",
-                      fontWeight: "600",
-                    }}
-                    id={Styles.h5}
-                  >
-                    Travel Form
-                  </h5>
-                  <p>
-                    <span
-                      style={{
-                        color: "lightseagreen",
-                        fontSize: "2em",
-                        fontWeight: "600",
-                      }}
-                      className="d-lg-none d-md-block"
-                    >
-                      <i
-                        style={{
-                          color: "lightseagreen",
-                          fontSize: "1em",
-                          fontWeight: "600",
-                        }}
-                        className="now-ui-icons files_paper"
-                      />{" "}
-                      Travel Form
-                    </span>
-                  </p>
-                </Link>
-              </NavItem>
               {/* Location */}
               <NavItem>
                 <Link to="/srm-inc/maps" className="nav-link">
                   <h5
                     style={{
-                      color: "lightseagreen",
+                      color: "#A3533E",
                       fontSize: "2em",
                       fontWeight: "600",
                     }}
                     id={Styles.h5}
                   >
-                    Our Location
+                    Location
                   </h5>
                   <p>
                     <span
                       style={{
-                        color: "lightseagreen",
+                        color: "#A3533E",
                         fontSize: "2em",
                         fontWeight: "600",
                       }}
@@ -190,13 +154,13 @@ function DemoNavbar(props) {
                     >
                       <i
                         style={{
-                          color: "lightseagreen",
+                          color: "#A3533E",
                           fontSize: "1em",
                           fontWeight: "600",
                         }}
                         className="now-ui-icons location_pin"
                       />{" "}
-                      Our Location
+                      Location
                     </span>
                   </p>
                 </Link>
@@ -205,18 +169,18 @@ function DemoNavbar(props) {
                 <Link to="/srm-inc/information" className="nav-link">
                   <h5
                     style={{
-                      color: "lightseagreen",
+                      color: "#A3533E",
                       fontSize: "2em",
                       fontWeight: "600",
                     }}
                     id={Styles.h5}
                   >
-                    Information
+                    Projects
                   </h5>
                   <p>
                     <span
                       style={{
-                        color: "lightseagreen",
+                        color: "#A3533E",
                         fontSize: "2em",
                         fontWeight: "600",
                       }}
@@ -224,13 +188,13 @@ function DemoNavbar(props) {
                     >
                       <i
                         style={{
-                          color: "lightseagreen",
+                          color: "#A3533E",
                           fontSize: "1em",
                           fontWeight: "600",
                         }}
                         className="now-ui-icons users_single-02"
                       />{" "}
-                      Information
+                      Projects
                     </span>
                   </p>
                 </Link>
