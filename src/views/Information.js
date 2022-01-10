@@ -91,13 +91,12 @@ function Dashboard() {
                   className="chart-area"
                 >
                   <h3 style={{ margin: "30px" }} id={Styles.h3}>
-                    The chimney is constructed from solid brick masonry. Masonry
-                    walls are approximately four feet thick at the bottom and
-                    thirty inches thick at the top. The "mushroom" base at the
-                    bottom of the chimney extends four feet above grade and is
-                    twelve feet wide at the bottom of the foundation. The
-                    chimney moves two inches back and forth each day, during the
-                    expansion and contraction from the heat of daylight hours.
+                    The chimney is constructed from brick masonry. The walls are
+                    approx. 4 ft thick at the base & 30 in. thick at the top.
+                    The "mushroom" base at the bottom of the chimney extends 4
+                    ft above grade & is 12 ft wide at the bottom of the
+                    foundation. The chimney moves 2 in. back & forth each day,
+                    during the expansion & contraction from the daylight heat.
                   </h3>
                 </div>
               </CardBody>
@@ -238,7 +237,7 @@ function Dashboard() {
                     This site has been the location of York County Courthouse
                     since 1825. The original courthouse was replaced with this
                     "new" structure in 1915. In 2016, extensive renovations were
-                    made to the interior and exterior. SRM, Inc. performed the
+                    made to the interior & exterior. SRM, Inc. performed the
                     exterior restoration work.
                   </h3>
                 </div>
@@ -264,7 +263,7 @@ function Dashboard() {
                         <td className="text-left">
                           <p>
                             <strong>1) </strong>All exterior brick masonry,
-                            terra-cotta, limestone, and granite were cleaned.
+                            terra-cotta, limestone, & granite were cleaned.
                           </p>
                         </td>
                       </tr>
@@ -273,8 +272,8 @@ function Dashboard() {
                         <td className="text-left">
                           <p>
                             <strong>2) </strong>
-                            Brick masonry mortar joints were inspected and spot
-                            pointed. All terra-cotta, limestone, and granite
+                            Brick masonry mortar joints were inspected & spot
+                            pointed. All terra-cotta, limestone, & granite
                             mortar joints were 100% tuck pointed.
                           </p>
                         </td>
@@ -302,7 +301,7 @@ function Dashboard() {
                         <td className="text-left">
                           <p>
                             <strong>5) </strong>Damaged terra-cotta elements on
-                            the Crier's Porch were fabricated and replaced.
+                            the Crier's Porch were fabricated & replaced.
                           </p>
                         </td>
                       </tr>
@@ -311,7 +310,7 @@ function Dashboard() {
                         <td className="text-left">
                           <p>
                             <strong>6) </strong>
-                            Basement walls were excavated and new waterproofing
+                            Basement walls were excavated & new waterproofing
                             membrane was installed.
                           </p>
                         </td>
@@ -347,11 +346,11 @@ function Dashboard() {
                   className="chart-area"
                 >
                   <h3 style={{ margin: "30px" }} id={Styles.h3}>
-                    The Jackson County Courthouse was built in early 1900 and
-                    was placed on this hill overlooking the town of Sylva. There
-                    are 198 steps leading up the hill to the Courthouse. The
-                    weight of the cupola on top of the Courthouse is 46,000
-                    pounds and has been rebuilt several times.
+                    The Jackson County Courthouse was built in early 1900 & was
+                    placed on this hill overlooking the town of Sylva. There are
+                    198 steps leading up the hill to the Courthouse. The weight
+                    of the cupola on top of the Courthouse is 46,000 pounds &
+                    has been rebuilt several times.
                   </h3>
                 </div>
               </CardBody>
@@ -401,7 +400,7 @@ function Dashboard() {
                           <p>
                             <strong>1) </strong>Approximately 500 cubic feet of
                             deteriorated concrete in the steps. leading up to
-                            the courthouse was cut out and repaired using Sika
+                            the courthouse was cut out & repaired using Sika
                             123.
                           </p>
                         </td>
@@ -421,7 +420,7 @@ function Dashboard() {
                         <td className="text-left">
                           <p>
                             <strong>3) </strong>Exterior walls of the Courthouse
-                            were spot pointed and coated.
+                            were spot pointed & coated.
                           </p>
                         </td>
                       </tr>
@@ -429,8 +428,8 @@ function Dashboard() {
                         <td></td>
                         <td className="text-left">
                           <p>
-                            <strong>4) </strong>The cupola was removed and
-                            lowered into an adjacent parking lot.
+                            <strong>4) </strong>The cupola was removed & lowered
+                            into an adjacent parking lot.
                           </p>
                         </td>
                       </tr>
@@ -448,8 +447,8 @@ function Dashboard() {
                         <td className="text-left">
                           <p>
                             <strong>6) </strong>
-                            Deteriorated wood framing was replaced, new siding
-                            and new roof were installed.
+                            Deteriorated wood framing was replaced, new siding &
+                            new roof were installed.
                           </p>
                         </td>
                       </tr>
@@ -458,8 +457,8 @@ function Dashboard() {
                         <td className="text-left">
                           <p>
                             <strong>7) </strong>
-                            The cupola was then lifted back into place and
-                            secured to the structure.
+                            The cupola was then lifted back into place & secured
+                            to the structure.
                           </p>
                         </td>
                       </tr>
@@ -511,12 +510,11 @@ function Dashboard() {
                 >
                   <h3 style={{ margin: "30px" }} id={Styles.h3}>
                     Construction on the original Anson County Courthouse began
-                    in 1910 and work was completed in 1912. The original cost to
-                    construct the Courthouse was $990,000,00, back in 1912.
-                    Recent restoration to the exterior of the Courthouse cost
-                    over one million dollars. The recent restoration project was
-                    the first time since 1912 any work had been done on the
-                    exterior of the building.
+                    in 1910 & work was completed in 1912. The original cost to
+                    construct the Courthouse was $990,000,000, back in 1912.
+                    Recent restoration to the Courthouse cost was over
+                    $1,000,000 & the project was the first time, since 1912 any
+                    work had been done on the building.
                   </h3>
                 </div>
               </CardBody>
@@ -541,7 +539,7 @@ function Dashboard() {
                         <td className="text-left">
                           <p>
                             <strong>1) </strong>All brick, terra-cotta, concrete
-                            and granite steps were cleaned.
+                            & granite steps were cleaned.
                           </p>
                         </td>
                       </tr>
@@ -551,8 +549,8 @@ function Dashboard() {
                           <p>
                             <strong>2) </strong>
                             Brick masonry mortar joints were spot pointed. All
-                            terra-cotta and concrete mortar joints were cut out
-                            100% and solidly re-pointed.
+                            terra-cotta & concrete mortar joints were cut out
+                            100% & solidly re-pointed.
                           </p>
                         </td>
                       </tr>
@@ -560,7 +558,7 @@ function Dashboard() {
                         <td></td>
                         <td className="text-left">
                           <p>
-                            <strong>3) </strong>All terra-cotta and concrete
+                            <strong>3) </strong>All terra-cotta & concrete
                             surfaces were coated with Keim Mineral Coatings.
                           </p>
                         </td>
@@ -569,7 +567,7 @@ function Dashboard() {
                         <td></td>
                         <td className="text-left">
                           <p>
-                            <strong>4) </strong>Broken and spalled brick masonry
+                            <strong>4) </strong>Broken & spalled brick masonry
                             units were replaced.
                           </p>
                         </td>
@@ -588,7 +586,7 @@ function Dashboard() {
                         <td className="text-left">
                           <p>
                             <strong>6) </strong>
-                            Spalled areas in the granite steps were cut out and
+                            Spalled areas in the granite steps were cut out &
                             new granite dutchman installed.
                           </p>
                         </td>
@@ -598,7 +596,7 @@ function Dashboard() {
                         <td className="text-left">
                           <p>
                             <strong>7) </strong>
-                            Bronze plaques and statue were refinished.
+                            Bronze plaques & statue were refinished.
                           </p>
                         </td>
                       </tr>
@@ -616,7 +614,7 @@ function Dashboard() {
                         <td className="text-left">
                           <p>
                             <strong>9) </strong>Sandstone walls around a gazebo
-                            area were re-pointed and finished with Keim Mineral
+                            area were re-pointed & finished with Keim Mineral
                             Coatings.
                           </p>
                         </td>
@@ -723,7 +721,7 @@ function Dashboard() {
                         <td></td>
                         <td className="text-left">
                           <p>
-                            <strong>1) </strong>All brick and stone walls were
+                            <strong>1) </strong>All brick & stone walls were
                             cleaned.
                           </p>
                         </td>
@@ -742,7 +740,7 @@ function Dashboard() {
                           <p>
                             <strong>3) </strong>There were 14 brick stucco
                             columns. All stucco was removed down to the brick
-                            masonry substrate and new stucco applied.
+                            masonry substrate & new stucco applied.
                           </p>
                         </td>
                       </tr>
@@ -751,8 +749,8 @@ function Dashboard() {
                         <td className="text-left">
                           <p>
                             <strong>4) </strong>Portions of the capitals on top
-                            of the columns were missing. Sections were removed
-                            and replacement pieces were cast and reinstalled.
+                            of the columns were missing. Sections were removed &
+                            replacement pieces were cast & reinstalled.
                           </p>
                         </td>
                       </tr>
@@ -761,7 +759,7 @@ function Dashboard() {
                         <td className="text-left">
                           <p>
                             <strong>5) </strong>Stucco columns, concrete water
-                            tables, and concrete trim were coated using
+                            tables, & concrete trim were coated using
                             elastomeric coatings.
                           </p>
                         </td>
