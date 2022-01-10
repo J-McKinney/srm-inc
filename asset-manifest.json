@@ -1,39 +1,36 @@
 {
   "files": {
-    "main.css": "/srm-inc/static/css/main.c20913e2.chunk.css",
-    "main.js": "/srm-inc/static/js/main.68e5c892.chunk.js",
-    "main.js.map": "/srm-inc/static/js/main.68e5c892.chunk.js.map",
+    "main.css": "/srm-inc/static/css/main.458f3e8b.chunk.css",
+    "main.js": "/srm-inc/static/js/main.cf1eea8e.chunk.js",
+    "main.js.map": "/srm-inc/static/js/main.cf1eea8e.chunk.js.map",
     "runtime-main.js": "/srm-inc/static/js/runtime-main.65e768eb.js",
     "runtime-main.js.map": "/srm-inc/static/js/runtime-main.65e768eb.js.map",
     "static/css/2.0583957c.chunk.css": "/srm-inc/static/css/2.0583957c.chunk.css",
-    "static/js/2.e470f8f8.chunk.js": "/srm-inc/static/js/2.e470f8f8.chunk.js",
-    "static/js/2.e470f8f8.chunk.js.map": "/srm-inc/static/js/2.e470f8f8.chunk.js.map",
+    "static/js/2.9e5d1fbb.chunk.js": "/srm-inc/static/js/2.9e5d1fbb.chunk.js",
+    "static/js/2.9e5d1fbb.chunk.js.map": "/srm-inc/static/js/2.9e5d1fbb.chunk.js.map",
     "index.html": "/srm-inc/index.html",
     "static/css/2.0583957c.chunk.css.map": "/srm-inc/static/css/2.0583957c.chunk.css.map",
-    "static/css/main.c20913e2.chunk.css.map": "/srm-inc/static/css/main.c20913e2.chunk.css.map",
-    "static/js/2.e470f8f8.chunk.js.LICENSE.txt": "/srm-inc/static/js/2.e470f8f8.chunk.js.LICENSE.txt",
+    "static/css/main.458f3e8b.chunk.css.map": "/srm-inc/static/css/main.458f3e8b.chunk.css.map",
+    "static/js/2.9e5d1fbb.chunk.js.LICENSE.txt": "/srm-inc/static/js/2.9e5d1fbb.chunk.js.LICENSE.txt",
     "static/media/GroupOfficePic.d0a64898.jpg": "/srm-inc/static/media/GroupOfficePic.d0a64898.jpg",
     "static/media/JPeckich.79a7f6fa.jpg": "/srm-inc/static/media/JPeckich.79a7f6fa.jpg",
-    "static/media/MVCFrontDoor.5a6e33e0.jpeg": "/srm-inc/static/media/MVCFrontDoor.5a6e33e0.jpeg",
     "static/media/MVCOriginal.bc65d27b.jpg": "/srm-inc/static/media/MVCOriginal.bc65d27b.jpg",
     "static/media/backSeatDog.7f3a57d2.jpg": "/srm-inc/static/media/backSeatDog.7f3a57d2.jpg",
     "static/media/catCase.4b42d6cc.jpg": "/srm-inc/static/media/catCase.4b42d6cc.jpg",
     "static/media/catDog.f64eb0ac.png": "/srm-inc/static/media/catDog.f64eb0ac.png",
-    "static/media/circle.4f721612.png": "/srm-inc/static/media/circle.4f721612.png",
+    "static/media/circle.603473fd.png": "/srm-inc/static/media/circle.603473fd.png",
     "static/media/cnd.1e7728b4.jpg": "/srm-inc/static/media/cnd.1e7728b4.jpg",
-    "static/media/dogCarWindow.a739be88.jpg": "/srm-inc/static/media/dogCarWindow.a739be88.jpg",
     "static/media/dogInCrate.27fc2d59.jpg": "/srm-inc/static/media/dogInCrate.27fc2d59.jpg",
     "static/media/hikerDog.4d0ee916.jpg": "/srm-inc/static/media/hikerDog.4d0ee916.jpg",
     "static/media/husky.1bc179eb.jpg": "/srm-inc/static/media/husky.1bc179eb.jpg",
     "static/media/now-ui-dashboard.scss?v1.5.0": "/srm-inc/static/media/nucleo-outline.802141dd.woff2",
-    "static/media/passports.b089f922.jpg": "/srm-inc/static/media/passports.b089f922.jpg",
-    "static/media/star.3c991c0b.png": "/srm-inc/static/media/star.3c991c0b.png"
+    "static/media/passports.b089f922.jpg": "/srm-inc/static/media/passports.b089f922.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.65e768eb.js",
     "static/css/2.0583957c.chunk.css",
-    "static/js/2.e470f8f8.chunk.js",
-    "static/css/main.c20913e2.chunk.css",
-    "static/js/main.68e5c892.chunk.js"
+    "static/js/2.9e5d1fbb.chunk.js",
+    "static/css/main.458f3e8b.chunk.css",
+    "static/js/main.cf1eea8e.chunk.js"
   ]
 }
