@@ -1,6 +1,7 @@
 /*eslint-disable*/
 import React from "react";
 import Carousel from "../components/FadeEffectCarousel/FadeEffectCarousel";
+// import HCFX from "../components/CardHoverFX/CardHover";
 import Styles from "./style.module.css";
 import ELC from "../assets/img/ELC.png";
 import BC from "../assets/img/BC.png";
@@ -48,6 +49,9 @@ function Home() {
             position: "relative",
           }}
         />
+
+        {/* <HCFX /> */}
+
         <div style={{ marginTop: "10vh" }} className="content">
           <Row
             style={{
